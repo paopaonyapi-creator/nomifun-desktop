@@ -1,0 +1,69 @@
+{
+  "unknownFile": "ไฟล์ที่ไม่รู้จัก",
+  "newFile": "ไฟล์ใหม่",
+  "deletedFile": "ไฟล์ที่ถูกลบ",
+  "modified": "แก้ไข",
+  "fileChanges": "การเปลี่ยนแปลงไฟล์",
+  "shell": {
+    "displayName": "คำสั่งเชลล์",
+    "description": "ดำเนินการคำสั่งเชลล์"
+  },
+  "fileOps": {
+    "displayName": "การทำงานของไฟล์",
+    "description": "การอ่าน เขียน และแก้ไขไฟล์"
+  },
+  "webSearch": {
+    "displayName": "ค้นหาเว็บ",
+    "description": "ค้นหาเนื้อหาเว็บ"
+  },
+  "mcp": {
+    "generic": {
+      "displayName": "เครื่องมือ MCP: {{toolName}}",
+      "description": "การเรียกเครื่องมือ MCP: {{toolName}}"
+    }
+  },
+  "unknown": {
+    "displayName": "เครื่องมือที่ไม่รู้จัก",
+    "description": "ประเภทเครื่องมือที่ไม่รู้จัก"
+  },
+  "status": {
+    "pending": "รอดำเนินการ",
+    "executing": "กำลังดำเนินการ",
+    "success": "ความสำเร็จ",
+    "error": "ข้อผิดพลาด",
+    "canceled": "ยกเลิกแล้ว"
+  },
+  "titles": {
+    "web_search_started": "เริ่มต้นการค้นหาเว็บแล้ว",
+    "web_search_completed": "การค้นหาเว็บเสร็จสมบูรณ์",
+    "web_search": "ค้นหาเว็บ",
+    "applying_patch": "การใช้แพตช์",
+    "patch_applied": "ใช้แพตช์แล้ว",
+    "file_patch": "ไฟล์แพตช์",
+    "mcp_tool_starting": "เครื่องมือ MCP: {{toolName}} (เริ่มต้น)",
+    "mcp_tool": "เครื่องมือ MCP: {{toolName}}",
+    "execute_command": "ดำเนินการ: {{command}}",
+    "command_output": "เอาต์พุตคำสั่ง",
+    "command_completed": "คำสั่งเสร็จสมบูรณ์",
+    "shell_command": "คำสั่งเชลล์"
+  },
+  "labels": {
+    "search_query": "คำค้นหา:",
+    "file_changes": "การเปลี่ยนแปลงไฟล์:",
+    "tool_details": "รายละเอียดเครื่องมือ:",
+    "tool": "เครื่องมือ",
+    "arguments": "อาร์กิวเมนต์:",
+    "result": "ผลลัพธ์:",
+    "command": "คำสั่ง:",
+    "working_directory": "ไดเรกทอรีการทำงาน:",
+    "exit_code": "ออก: {{code}}",
+    "duration": "ระยะเวลา: {{seconds}}",
+    "auto_approved": "อนุมัติอัตโนมัติ",
+    "manual_approval": "การอนุมัติด้วยตนเอง"
+  },
+  "actions": {
+    "create": "สร้าง",
+    "modify": "แก้ไข",
+    "delete": "ลบ"
+  }
+}

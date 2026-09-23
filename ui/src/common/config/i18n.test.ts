@@ -14,8 +14,8 @@ import {
 } from './i18n';
 
 describe('i18n language support', () => {
-  test('only exposes simplified Chinese and English as supported app languages', () => {
-    expect(SUPPORTED_LANGUAGES).toEqual(['zh-CN', 'en-US']);
+  test('exposes Thai alongside simplified Chinese and English as supported app languages', () => {
+    expect(SUPPORTED_LANGUAGES).toEqual(['zh-CN', 'en-US', 'th-TH']);
     expect(DEFAULT_LANGUAGE).toBe('en-US');
   });
 
@@ -26,6 +26,12 @@ describe('i18n language support', () => {
     expect(normalizeLanguageCode('tr-TR')).toBe(DEFAULT_LANGUAGE);
     expect(normalizeLanguageCode('ru-RU')).toBe(DEFAULT_LANGUAGE);
     expect(normalizeLanguageCode('uk-UA')).toBe(DEFAULT_LANGUAGE);
+  });
+
+  test('normalizes Thai language tags to the shipped Thai locale', () => {
+    expect(normalizeLanguageCode('th')).toBe('th-TH');
+    expect(normalizeLanguageCode('th_TH')).toBe('th-TH');
+    expect(normalizeLanguageCode('th-TH')).toBe('th-TH');
   });
 
   test('resolves the system preference from the detected operating system language', () => {

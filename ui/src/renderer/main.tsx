@@ -26,6 +26,7 @@ import { ConfigProvider } from '@arco-design/web-react';
 import '@arco-design/web-react/es/_util/react-19-adapter';
 import '@arco-design/web-react/dist/css/arco.css';
 import enUS from '@arco-design/web-react/es/locale/en-US';
+import thTH from '@arco-design/web-react/es/locale/th-TH';
 import zhCN from '@arco-design/web-react/es/locale/zh-CN';
 import { useTranslation } from 'react-i18next';
 
@@ -68,6 +69,9 @@ import HOC from './utils/ui/HOC';
 const arcoLocales: Record<string, typeof enUS> = {
   'zh-CN': zhCN,
   'en-US': enUS,
+  // Arco's Thai pack predates a few newer optional component labels. Keep its
+  // Thai calendar/form copy while filling those newer slots from English.
+  'th-TH': ({ ...enUS, ...thTH, Form: enUS.Form, ColorPicker: enUS.ColorPicker } as unknown) as typeof enUS,
 };
 
 const AppProviders: React.FC<PropsWithChildren> = ({ children }) =>

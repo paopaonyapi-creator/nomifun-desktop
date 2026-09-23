@@ -19,7 +19,7 @@ export type LanguagePreference = typeof SYSTEM_LANGUAGE | SupportedLanguage;
 
 /**
  * Normalize a language code to a supported BCP 47 tag.
- * e.g. 'zh' → 'zh-CN', unsupported locales → fallback language.
+ * e.g. 'zh' → 'zh-CN' and 'th' → 'th-TH', unsupported locales → fallback language.
  */
 export function normalizeLanguageCode(language: string): SupportedLanguage {
   const normalized = language.replace(/_/g, '-');
@@ -32,6 +32,8 @@ export function normalizeLanguageCode(language: string): SupportedLanguage {
   switch (langOnly) {
     case 'zh':
       return 'zh-CN';
+    case 'th':
+      return 'th-TH';
     default:
       return DEFAULT_LANGUAGE;
   }

@@ -1,0 +1,27 @@
+{
+  "tagSessions": {
+    "tag": "แท็ก",
+    "counts": "ข้อกำหนด",
+    "countsFmt": "{{done}}/{{total}}",
+    "boundCount": "เซสชันที่ถูกผูกไว้",
+    "unbind": "เลิกผูก",
+    "activeStopInSession": "เซสชันนี้กำลังดำเนินการอยู่ กรุณาหยุดมันจากหน้าเซสชั่นก่อนที่จะยกเลิกการผูก",
+    "unbindOk": "เลิกเชื่อมโยงสำเร็จ",
+    "unbindError": "เลิกผูกล้มเหลว: {{error}}",
+    "conflictWarning": "มีการใช้งานหลายเซสชัน",
+    "empty": "ยังไม่มีแท็ก",
+    "noBindings": "ไม่มีเซสชันที่ถูกผูกไว้",
+    "pausedBadge": "หยุดชั่วคราว: {{reason}}",
+    "pausedReasons": {
+      "requirementFailed": "ข้อกำหนดล้มเหลว",
+      "userInterrupted": "หยุดโดยผู้ใช้"
+    },
+    "resume": "ดำเนินการต่อ",
+    "resumeSuccess": "แท็กกลับมาทำงานต่อ"
+  },
+  "runState": {
+    "off": "ปิด",
+    "idle": "ไม่ได้ใช้งาน",
+    "active": "ใช้งานอยู่"
+  }
+}

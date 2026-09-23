@@ -1,0 +1,19 @@
+{
+  "plan": "โหมดแผน",
+  "default": "ค่าเริ่มต้น",
+  "acceptEdits": "ยอมรับการแก้ไข",
+  "autoEdit": "แก้ไขอัตโนมัติ",
+  "auto_edit": "แก้ไขอัตโนมัติ",
+  "yolo": "YOLO",
+  "yoloNoSandbox": "อัตโนมัติเต็มรูปแบบ (ไม่มีแซนด์บ็อกซ์)",
+  "auto": "อัตโนมัติ",
+  "dontAsk": "ไม่ต้องถาม",
+  "bypass": "ข้ามการยืนยัน (YOLO)",
+  "bypassPermissions": "YOLO",
+  "smart": "อัจฉริยะ",
+  "build": "โหมด Build",
+  "permission": "สิทธิ์การทำงาน",
+  "switchMode": "โหมดสิทธิ์การทำงาน",
+  "switchSuccess": "เปลี่ยนโหมดสำเร็จ",
+  "switchFailed": "เปลี่ยนโหมดไม่สำเร็จ"
+}

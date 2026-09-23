@@ -13,6 +13,7 @@ import { useLanguagePreference } from '@/renderer/hooks/system/useLanguagePrefer
 const LANGUAGE_LABELS: Record<string, string> = {
   'zh-CN': '简体中文',
   'en-US': 'English',
+  'th-TH': 'ไทย',
 };
 
 const LanguageSwitcher: React.FC = () => {
@@ -48,6 +49,7 @@ const LanguageSwitcher: React.FC = () => {
         <NomiSelect.Option value={SYSTEM_LANGUAGE}>{t('settings.languageFollowSystem')}</NomiSelect.Option>
         <NomiSelect.Option value='zh-CN'>简体中文</NomiSelect.Option>
         <NomiSelect.Option value='en-US'>English</NomiSelect.Option>
+        <NomiSelect.Option value='th-TH'>ไทย</NomiSelect.Option>
       </NomiSelect>
       {preference === SYSTEM_LANGUAGE && (
         <span className='text-11px text-t-tertiary text-right leading-16px'>

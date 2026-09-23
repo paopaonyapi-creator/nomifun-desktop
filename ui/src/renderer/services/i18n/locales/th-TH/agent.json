@@ -1,0 +1,48 @@
+{
+  "health": {
+    "detectedError": "ตรวจพบข้อผิดพลาดกับ Agent ปัจจุบัน ({{agent}})",
+    "autoSwitching": "ระบบจะพยายามเปลี่ยนโดยอัตโนมัติ",
+    "evaluating": "กำลังประเมินเวลาแฝงของเครือข่ายและความพร้อมใช้งานของโมเดล...",
+    "checking": "กำลังตรวจสอบจุดสิ้นสุด {{agent}}...",
+    "foundBest": "พบทางเลือกที่ดีที่สุด",
+    "recommendSwitch": "แนะนำ",
+    "available": "พร้อมใช้งาน",
+    "lowLatency": "เวลาแฝงต่ำ",
+    "mediumLatency": "เวลาแฝงปานกลาง",
+    "highLatency": "เวลาแฝงสูง",
+    "bestMatch": "ตรงที่สุด",
+    "noAvailable": "ไม่มี Agent ที่พร้อมใช้งานในสภาพแวดล้อมปัจจุบัน",
+    "checkConfig": "โปรดตรวจสอบการกำหนดค่าหรือลองอีกครั้งในภายหลัง"
+  },
+  "setup": {
+    "connectionError": "ข้อผิดพลาดในการเชื่อมต่อ",
+    "notConfigured": "{{agent}} ไม่ได้กำหนดค่า",
+    "authRequired": "ต้องยืนยันตัวตนหรือมีคีย์ API เพื่อใช้ Agent นี้",
+    "findingAlternatives": "กำลังค้นหาทางเลือกอื่นที่มีอยู่...",
+    "checkingAgent": "กำลังตรวจสอบ {{agent}}...",
+    "alternativesFound": "พบทางเลือกที่พร้อมใช้งาน {{count}} รายการ",
+    "autoSwitching": "กำลังสลับไปยัง Agent ที่เหมาะสมที่สุดโดยอัตโนมัติ...",
+    "configError": "ข้อผิดพลาดในการกำหนดค่า โปรดตรวจสอบการตั้งค่าของคุณหรือเลือกทางเลือกอื่น:",
+    "noAlternatives": "ไม่พบ Agent ที่พร้อมใช้งาน",
+    "configureFirst": "โปรดกำหนดค่า Agent ในการตั้งค่าก่อน",
+    "switching": "กำลังเปลี่ยน Agent..."
+  },
+  "model": {
+    "switchSuccess": "เปลี่ยนโมเดลสำเร็จ",
+    "switchFailed": "เปลี่ยนโมเดลไม่สำเร็จ"
+  },
+  "sendbox": {
+    "placeholder": "ส่งข้อความไปที่ {{backend}}..."
+  },
+  "status": {
+    "connecting": "กำลังเชื่อมต่อกับ {{agent}}...",
+    "connected": "เชื่อมต่อกับ {{agent}}",
+    "authenticated": "ยืนยันตัวตนกับ {{agent}} แล้ว",
+    "session_active": "เซสชันกับ {{agent}} กำลังทำงาน",
+    "error": "ข้อผิดพลาดในการเชื่อมต่อ",
+    "unknown": "สถานะไม่ทราบ"
+  },
+  "config": {
+    "reasoning_effort": "ระดับการคิดวิเคราะห์"
+  }
+}

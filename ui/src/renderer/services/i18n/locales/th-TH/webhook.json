@@ -1,0 +1,56 @@
+{
+  "label": "Webhook",
+  "title": "การจัดการ Webhook",
+  "columns": {
+    "name": "ชื่อ",
+    "platform": "แพลตฟอร์ม",
+    "url": "URL",
+    "description": "คำอธิบาย",
+    "enabled": "เปิดใช้งาน",
+    "secret": "ความลับ",
+    "actions": "การกระทำ"
+  },
+  "form": {
+    "createTitle": "สร้าง Webhook",
+    "editTitle": "แก้ไข Webhook",
+    "name": "ชื่อ",
+    "namePlaceholder": "ป้อนชื่อ webhook",
+    "nameRequired": "จำเป็นต้องระบุชื่อ",
+    "platform": "แพลตฟอร์ม",
+    "url": "URL",
+    "urlPlaceholder": "ป้อน URL ของ webhook",
+    "urlRequired": "จำเป็นต้องมี URL",
+    "secret": "ความลับในการลงนาม",
+    "secretPlaceholder": "การลงนามความลับ (ไม่บังคับ)",
+    "secretHint": "เว้นว่างไว้เมื่อแก้ไขเพื่อเก็บความลับที่มีอยู่",
+    "clearSecret": "ล้างความลับ",
+    "description": "คำอธิบาย",
+    "descriptionPlaceholder": "ป้อนคำอธิบาย (ไม่บังคับ)",
+    "enabled": "เปิดใช้งาน"
+  },
+  "platform": {
+    "lark": "Lark / Feishu",
+    "http": "HTTP ทั่วไป",
+    "slack": "Slack"
+  },
+  "secret": {
+    "configured": "กำหนดค่าแล้ว",
+    "notConfigured": "ไม่ได้กำหนดค่า"
+  },
+  "actions": {
+    "create": "สร้าง Webhook",
+    "edit": "แก้ไข",
+    "delete": "ลบ",
+    "test": "ทดสอบ",
+    "deleteConfirm": "คุณแน่ใจหรือไม่ว่าต้องการลบ webhook นี้"
+  },
+  "messages": {
+    "createOk": "สร้าง Webhook สำเร็จแล้ว",
+    "updateOk": "อัปเดต Webhook สำเร็จแล้ว",
+    "deleteOk": "ลบ Webhook แล้ว",
+    "testOk": "การทดสอบ Webhook สำเร็จ",
+    "testError": "การทดสอบ Webhook ล้มเหลว: {{error}}",
+    "loadError": "ไม่สามารถโหลด webhooks"
+  },
+  "empty": "ยังไม่มี webhooks"
+}

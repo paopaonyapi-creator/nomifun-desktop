@@ -1,0 +1,18 @@
+{
+  "selectFile": "เลือกไฟล์",
+  "selectDirectory": "เลือกไดเรกทอรี",
+  "pleaseSelectFile": "โปรดเลือกไฟล์",
+  "pleaseSelectDirectory": "โปรดเลือกไดเรกทอรี",
+  "allFiles": "ไฟล์ทั้งหมด",
+  "newFolder": "โฟลเดอร์ใหม่",
+  "newFolderName": "ชื่อโฟลเดอร์",
+  "createFolder": "สร้างโฟลเดอร์",
+  "createFolderSuccess": "โฟลเดอร์ที่สร้างแล้ว",
+  "folderNameRequired": "ป้อนชื่อโฟลเดอร์",
+  "selectParentForNewFolder": "เลือกโฟลเดอร์หลักก่อน",
+  "emptyFolder": "โฟลเดอร์นี้ว่างเปล่า",
+  "currentLocation": "ตำแหน่งปัจจุบัน",
+  "selectedLocation": "เลือกแล้ว",
+  "truncated": "แสดงเฉพาะ 500 รายการแรกเท่านั้น",
+  "parentDirectory": "โฟลเดอร์หลัก"
+}

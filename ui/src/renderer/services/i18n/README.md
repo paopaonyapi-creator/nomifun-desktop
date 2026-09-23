@@ -7,6 +7,7 @@ The renderer uses `i18next` + `react-i18next`. The source of truth lives in
 
 - `zh-CN`
 - `en-US`
+- `th-TH`
 
 `DEFAULT_LANGUAGE`, normalization, fallback merging, and the supported language
 type are shared from `@/common/config/i18n`.
@@ -32,8 +33,8 @@ services/i18n/
 ```
 
 Locale JSON is split by module. Each locale folder exports its modules through
-`locales/<lang>/index.ts`, and `services/i18n/index.ts` statically imports both
-locale bundles so the packaged desktop app can switch languages without runtime
+`locales/<lang>/index.ts`, and `services/i18n/index.ts` statically imports every
+locale bundle so the packaged desktop app can switch languages without runtime
 file discovery.
 
 `i18n-keys.d.ts` is generated from locale files and exports `I18nKey` /
@@ -77,8 +78,8 @@ await changeLanguage('en-US');
 
 ## Adding Or Changing Text
 
-1. Add the key to the matching module JSON in both `locales/zh-CN/` and
-   `locales/en-US/`.
+1. Add the key to the matching module JSON in every supported locale directory
+   (`locales/zh-CN/`, `locales/en-US/`, and `locales/th-TH/`).
 2. Keep module names aligned across languages.
 3. Regenerate/check key types:
 
@@ -109,7 +110,7 @@ start demanding a variant the other forbids:
 
 - Do not hardcode user-visible product text in components.
 - Prefer stable semantic keys such as `cron.detail.runNow`.
-- Keep Chinese and English keys symmetric, except for plural variants (see
+- Keep all shipped locale keys symmetric, except for plural variants (see
   [Plurals](#plurals)).
 - Add a new module only when the feature boundary is real; otherwise extend the
   nearest existing module.

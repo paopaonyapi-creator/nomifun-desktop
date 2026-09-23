@@ -1,0 +1,85 @@
+{
+  "agentFallbackNotice": "{{original}} ไม่พร้อมใช้งาน ใช้ {{fallback}} แทน",
+  "noAgentAvailable": "ไม่มีตัวแทนหลักให้บริการ กรุณาเข้าสู่ระบบ Google หรือติดตั้ง Claude/Codex CLI ไปที่การตั้งค่า?",
+  "noAgentAvailableShort": "ไม่มีตัวแทนหลัก คลิกเพื่อกำหนดค่า",
+  "agentTabAutoSwitch": "โมเดลเข้ากันไม่ได้กับ Gemini, สลับอัตโนมัติเป็น {{fallback}}",
+  "autoSwitchToAgent": "Gemini ไม่ได้รับการกำหนดค่า, การสลับอัตโนมัติเป็น {{agent}}",
+  "autoSwitchedAgent": "{{from}} ไม่พร้อมใช้งาน เปลี่ยนเป็น {{to}}",
+  "promptExamplesHint": "ลองใช้ข้อความแจ้งตัวอย่าง:",
+  "selectPresetHint": "เลือกค่าที่ตั้งไว้ล่วงหน้าเพื่อเริ่มงาน",
+  "agentSwitcherLabel": "ตัวแทน",
+  "switchedToAgent": "เปลี่ยนเป็น {{agent}}",
+  "modelRequired": "เลือกโมเดลก่อน",
+  "collaboration": {
+    "models": {
+      "title": "โมเดลของผู้ทำงานร่วมกัน",
+      "label": "ผู้ทำงานร่วมกัน",
+      "count": "ผู้ทำงานร่วมกัน · {{count}}",
+      "mainTag": "main",
+      "placeholder": "เลือกโมเดลสำหรับการทำงานร่วมกัน...",
+      "emptyHint": "โมเดลหลักจะมีส่วนร่วมเสมอ เพิ่มโมเดลผู้ทำงานร่วมกันเพื่อจับคู่งานต่างๆ กับโมเดลที่เหมาะสม",
+      "selectedHint": "โมเดลหลักและโมเดลของผู้ทำงานร่วมกัน {{count}} จะทำงานร่วมกันได้ตามต้องการ"
+    }
+  },
+  "workspace": {
+    "workInProject": "ทำงานในโครงการ",
+    "optional": "ตัวเลือก",
+    "clearWorkspace": "ล้าง",
+    "specifyWorkspace": "เลือกโฟลเดอร์โครงการ",
+    "searchPlaceholder": "ค้นหาโครงการ…",
+    "defaultWorkspace": "พื้นที่ทำงานเริ่มต้น (จัดการโดย Nomi)"
+  },
+  "scanning": {
+    "initialMessage": "Agent ปัจจุบันไม่พร้อมใช้งาน ตรวจพบตัวแทนอื่นที่มีอยู่...",
+    "scanningMessage": "กำลังสแกนตัวแทนที่มีอยู่ในพื้นที่...",
+    "connectingMessage": "เชื่อมต่อสำเร็จแล้ว โปรดรอสักครู่...",
+    "establishingConnection": "กำลังสร้างการเชื่อมต่อ...",
+    "statusQueued": "อยู่ในคิว",
+    "statusTesting": "ทดสอบเวลาแฝง...",
+    "statusUnreachable": "ไม่สามารถเข้าถึงได้",
+    "statusAvailable": "พร้อมใช้งาน"
+  },
+  "advanced": {
+    "applyNote": "นำไปใช้โดยอัตโนมัติเมื่อสร้างการสนทนาแล้ว",
+    "applyFailed": "ล้มเหลวในการใช้ {{feature}} — คุณสามารถเปิดใช้งานได้อีกครั้งในการสนทนา",
+    "draftOn": "ค่าที่ตั้งไว้ล่วงหน้า · เปิดใช้งานหลังจากการสร้าง",
+    "draftOff": "ไม่ใช่ค่าที่ตั้งไว้ล่วงหน้า",
+    "willMount": "{{count}} ฐานจะถูกติดตั้ง"
+  },
+  "entry": {
+    "free": "รูปแบบอิสระ",
+    "usePreset": "ใช้การตั้งค่าล่วงหน้า",
+    "skills": "ใช้ทักษะ",
+    "skillsActive": "ใช้ทักษะ · เปิดใช้งาน",
+    "skillsAdjustAria": "ปรับ {{count}} ทักษะที่เปิดใช้งานสำหรับการแชทนี้",
+    "skillsActiveAria": "ดู {{count}} ทักษะที่เปิดใช้งานสำหรับการแชทนี้",
+    "backToFree": "รูปแบบอิสระ"
+  },
+  "skillsPopover": {
+    "title": "ทักษะที่ใช้ในแชทนี้",
+    "description": "ทักษะเหล่านี้ถูกแทรกเข้าไปในแชทนี้ ใช้ \"ใช้ทักษะ\" เพื่อปรับเปลี่ยนก่อนส่ง",
+    "enabledCount": "{{count}} เปิดใช้งานแล้ว",
+    "overflowCount": "{{count}} ทักษะเพิ่มเติม",
+    "adjustHint": "คลิก “ใช้ทักษะ” เพื่อปรับการแชทนี้"
+  },
+  "drawer": {
+    "presetTab": "ค่าที่ตั้งล่วงหน้า",
+    "skillsTab": "ทักษะ",
+    "searchPreset": "ค้นหาค่าที่ตั้งล่วงหน้า…",
+    "searchSkill": "ทักษะการค้นหา…",
+    "usePreset": "ใช้",
+    "keepFree": "คงรูปแบบอิสระ",
+    "applySkills": "นำไปใช้กับแชทนี้",
+    "selectedCount": "{{count}} เลือกทักษะ",
+    "sourceCustom": "กำหนดเอง",
+    "sourceBuiltin": "ในตัว",
+    "sourceExtension": "ส่วนขยาย",
+    "autoInject": "ฉีดอัตโนมัติ",
+    "presetCount": "ที่ตั้งไว้ล่วงหน้า",
+    "skillCount": "ทักษะ",
+    "presetHint": "เลือกค่าที่ตั้งล่วงหน้าหนึ่งรายการ แบ็กเอนด์จะแก้ไขและบันทึกภาพสำหรับการสนทนานี้",
+    "presetEmpty": "ยังไม่มีการตั้งค่าล่วงหน้า สร้างหนึ่งในค่าที่ตั้งล่วงหน้าหรือคงรูปแบบอิสระ",
+    "presetNoMatch": "ไม่มีค่าที่ตั้งล่วงหน้าที่ตรงกับการค้นหาและตัวกรองปัจจุบัน",
+    "skillNoMatch": "ไม่มีทักษะที่ตรงกับการค้นหาและตัวกรองปัจจุบัน"
+  }
+}

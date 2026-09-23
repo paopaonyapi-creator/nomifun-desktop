@@ -1,0 +1,179 @@
+{
+  "title": "ข้อกำหนด",
+  "siderTitle": "คำขอ",
+  "subtitle": "จัดการข้อกำหนด ส่วนขยาย และแหล่งข้อมูล",
+  "section": {
+    "workspace": "ข้อกำหนด",
+    "extensions": "ส่วนขยาย",
+    "sources": "แหล่งข้อมูล"
+  },
+  "newRequirement": "ข้อกำหนดใหม่",
+  "empty": "ยังไม่มีข้อกำหนด",
+  "search": "ค้นหาชื่อ เนื้อหา หรือ #number",
+  "searchLabel": "ค้นหา",
+  "allTags": "แท็กทั้งหมด",
+  "allStatuses": "สถานะทั้งหมด",
+  "viewList": "รายการ",
+  "viewKanban": "Kanban",
+  "loadError": "ไม่สามารถโหลดข้อกำหนด",
+  "retry": "ลองใหม่",
+  "sort": {
+    "label": "จัดเรียง",
+    "direction": "ทิศทาง",
+    "default": "ลำดับเริ่มต้น",
+    "byId": "หมายเลข",
+    "byCreatedAt": "สร้างแล้ว",
+    "byUpdatedAt": "อัปเดต",
+    "byStatus": "สถานะ",
+    "asc": "จากน้อยไปมาก",
+    "desc": "จากมากไปน้อย"
+  },
+  "selection": {
+    "selectAllPage": "เลือกหน้า",
+    "clear": "ล้าง",
+    "totalCount": "{{count}} รวม",
+    "selectedCount": "{{count}} เลือกแล้ว"
+  },
+  "columns": {
+    "seq": "ไม่ใช่",
+    "id": "ID",
+    "title": "ชื่อ",
+    "tag": "แท็ก",
+    "order": "คำสั่งซื้อ",
+    "status": "สถานะ",
+    "session": "เซสชัน",
+    "createdAt": "สร้างแล้ว",
+    "actions": "การกระทำ"
+  },
+  "status": {
+    "pending": "รอดำเนินการ",
+    "in_progress": "อยู่ระหว่างดำเนินการ",
+    "done": "เสร็จสิ้น",
+    "failed": "ล้มเหลว",
+    "cancelled": "ยกเลิกแล้ว",
+    "needs_review": "ต้องการการตรวจสอบ"
+  },
+  "actions": {
+    "edit": "แก้ไข",
+    "delete": "ลบ",
+    "deleteConfirm": "ลบข้อกำหนดนี้หรือไม่",
+    "deleteOk": "ลบข้อกำหนดแล้ว",
+    "batchDelete": "ลบ {{count}} ที่เลือกไว้",
+    "batchDeleteConfirm": "ลบ {{count}} ข้อกำหนดที่เลือกหรือไม่",
+    "batchDeleteOk": "ลบ {{count}} ข้อกำหนด"
+  },
+  "detail": {
+    "createdBy": "สร้างโดย",
+    "completedAt": "เสร็จสมบูรณ์",
+    "session": "เซสชัน",
+    "completionNote": "บันทึกการเสร็จสิ้น",
+    "attachments": "รูปภาพ"
+  },
+  "form": {
+    "createTitle": "ข้อกำหนดใหม่",
+    "editTitle": "แก้ไขข้อกำหนด",
+    "titleLabel": "ชื่อ",
+    "titlePlaceholder": "ชื่อความต้องการ",
+    "contentLabel": "เนื้อหา",
+    "contentPlaceholder": "อธิบายงาน (รองรับมาร์กดาวน์)",
+    "tagLabel": "แท็ก",
+    "tagPlaceholder": "เลือกหรือสร้างแท็ก",
+    "orderLabel": "ลำดับการดำเนินการ",
+    "orderHelp": "จุดทศนิยม เช่น 1, 1.2, 2.3.1 — วิ่งน้อยกว่าก่อน",
+    "statusLabel": "สถานะ",
+    "submit": "บันทึก",
+    "cancel": "ยกเลิก",
+    "createdOk": "สร้างข้อกำหนดแล้ว",
+    "updatedOk": "อัปเดตข้อกำหนดแล้ว",
+    "titleRequired": "ต้องระบุชื่อ",
+    "tagRequired": "ต้องระบุแท็ก",
+    "attachmentsLabel": "รูปภาพ",
+    "attachmentsHelp": "วาง ลากเข้า หรือคลิกเพื่ออัปโหลดภาพ (jpg/png/gif/webp/bmp/svg) จัดเก็บตามข้อกำหนดและกำหนดให้กับโมเดลการดำเนินการ",
+    "attachmentsOnlyImages": "รองรับเฉพาะไฟล์รูปภาพ",
+    "addImage": "เพิ่มรูปภาพ",
+    "attachmentTooLarge": "รูปภาพเกินขีดจำกัด 30MB"
+  },
+  "autowork": {
+    "label": "AutoWork",
+    "startSession": "เริ่มเซสชัน AutoWork",
+    "hint": "ทำงานผ่านแท็กโดยอัตโนมัติ ข้อกำหนดทีละรายการในเซสชั่นนี้",
+    "tagLabel": "แท็ก",
+    "selectTag": "เลือกแท็ก",
+    "disableToChangeTag": "ปิด AutoWork เพื่อเปลี่ยนแท็ก",
+    "tagRequired": "เลือกแท็กเพื่อเปิดใช้งาน AutoWork",
+    "enabledOk": "เปิดใช้งาน AutoWork",
+    "disabledOk": "ปิดใช้งาน AutoWork",
+    "completedCount": "เสร็จสมบูรณ์: {{count}}",
+    "emptyTitle": "ไม่มีแท็ก",
+    "emptyDescription": "แท็กจะถูกสร้างขึ้นโดยอัตโนมัติตามข้อกำหนด เพิ่มข้อกำหนดที่ติดแท็กเพื่อเริ่มต้น",
+    "emptyCta": "ข้อกำหนดใหม่",
+    "loadingTags": "กำลังโหลดแท็ก",
+    "loadErrorTitle": "ไม่สามารถโหลดแท็ก",
+    "loadErrorDescription": "ตรวจสอบการเชื่อมต่อของคุณแล้วลองอีกครั้ง",
+    "retry": "ลองใหม่",
+    "state": {
+      "off": "ปิด",
+      "idle": "ไม่ได้ใช้งาน",
+      "active": "ใช้งานอยู่"
+    }
+  },
+  "kanban": {
+    "selectTag": "เลือกแท็ก",
+    "emptyColumn": "ว่างเปล่า"
+  },
+  "emptyState": {
+    "title": "ยังไม่มีข้อกำหนด",
+    "desc": "สร้างข้อกำหนดแรกของคุณเพื่อเริ่มจัดการและทำให้เป็นอัตโนมัติ",
+    "cta": "ข้อกำหนดใหม่"
+  },
+  "drawer": {
+    "detailTitle": "รายละเอียดความต้องการ",
+    "view": "ดู",
+    "edit": "แก้ไข"
+  },
+  "ext": {
+    "notify": "การแจ้งเตือน",
+    "autowork": "AutoWork"
+  },
+  "notify": {
+    "channelsTitle": "ช่องทางการแจ้งเตือน",
+    "channelsHint": "ตำแหน่งที่ส่งข้อความ",
+    "newChannel": "ช่องทางใหม่",
+    "rulesTitle": "กฎทริกเกอร์",
+    "rulesHint": "เมื่อใดที่ควรแจ้งเตือน",
+    "ruleWhen": "เมื่อ",
+    "ruleReq": "ข้อกำหนด",
+    "ruleThen": "→ แจ้งเตือน",
+    "ruleAnyTag": "แท็กใดๆ",
+    "eventsLabel": "เหตุการณ์",
+    "selectChannel": "เลือกช่อง",
+    "clearChannel": "อย่าแจ้งเตือน",
+    "noChannel": "ไม่ผูกมัด",
+    "eventsRequired": "เลือกอย่างน้อยหนึ่งเหตุการณ์",
+    "futureGlobalRule": "กฎทางเลือกส่วนกลาง (เร็วๆ นี้)"
+  },
+  "source": {
+    "connectedTitle": "เชื่อมต่อแล้ว",
+    "upcomingTitle": "เร็วๆ นี้ · สงวนไว้สำหรับการบูรณาการ",
+    "status": {
+      "active": "กำลังใช้งาน",
+      "soon": "เร็วๆ นี้",
+      "planned": "วางแผนแล้ว"
+    },
+    "connect": "เชื่อมต่อ…",
+    "count": "{{count}} ข้อกำหนด",
+    "local": {
+      "name": "ข้อกำหนดในท้องถิ่น",
+      "desc": "สร้างและจัดการในแอป ทำงานแบบออฟไลน์"
+    },
+    "lark": {
+      "name": "Lark · Feishu Bitable",
+      "desc": "แมปบันทึก Bitable ตามความต้องการ ซิงค์เป็นระยะ (อ่านอย่างเดียวก่อน)"
+    },
+    "other": {
+      "name": "บุคคลที่สามอื่นๆ",
+      "desc": "Generic API / Notion / Jira และอื่นๆ อีกมากมาย ผสานรวมผ่านอินเทอร์เฟซต้นทางเดียวกัน"
+    },
+    "note": "ทุกข้อกำหนดจะมีแท็ก \"แหล่งที่มา\" การบูรณาการแพลตฟอร์มถือเป็น \"ผู้ให้บริการแหล่งข้อมูล\" และท้องถิ่นเป็นเพียงหนึ่งในนั้น การบูรณาการในอนาคต = การเพิ่มผู้ให้บริการ โดยไม่ต้องแตะ CRUD หลัก"
+  }
+}
