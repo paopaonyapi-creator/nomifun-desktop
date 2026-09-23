@@ -81,3 +81,6 @@ Thumbs.db
 # ignored as an additional guard against accidental `git add` operations.
 /.github/workflows/*.yml
 /.github/workflows/*.yaml
+
+# Portable distribution binaries
+/dist-portable/*.exe
